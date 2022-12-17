@@ -1,0 +1,2 @@
+Tải các file: checkpoint, ckpt-10.data-00000-of-00001, ckpt-10.index. Sau đó bỏ các file vào thư mục train2
+Source model checkpoint download link: https://drive.google.com/drive/u/0/folders/1-6dPidjqFpBC6GEwTMTsEZY7BKTrBb9_

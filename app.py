@@ -44,8 +44,6 @@ class predict(Resource):
                 result = ' '.join(result)
                 result = result.replace(' <end>','')
                                 
-                # declaring list
-                # list = ['a', 'b', 'c', 'd', 'e', 'f']
                 dbfile = open("train_captions", 'rb')      
                 list = pickle.load(dbfile)  
                 dbfile.close()
@@ -57,10 +55,6 @@ class predict(Resource):
                 list = [s.replace("<start>  ", "") for s in list]
                 list = [s.replace(" .", "") for s in list]
                 list = random.sample(list,4)
-                # list = [s.replace("<end>", "") for s in list]
-                # list = [s.replace("<start>", "") for s in list]
-                # result2 = ' '.join(result)
-                # result = {'caption': result2, 'caption_split': result1}
                 result = jsonify(
                     answer = result,
                     choices = list
