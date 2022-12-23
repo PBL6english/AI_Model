@@ -1,25 +1,10 @@
 import tensorflow as tf
-# import matplotlib.pyplot as plt
-# from tensorflow.compat.v1.keras.backend import set_session
-# import keras
-# import sys, time, os, warnings 
 import warnings 
-import numpy as np
-# import pandas as pd 
-# from collections import Counter 
+import numpy as np 
 warnings.filterwarnings("ignore")
 
-# Scikit-learn includes many helpful utilities
-# from sklearn.model_selection import train_test_split
-# from sklearn.utils import shuffle
 
-# import re
-# import json
-# from glob import glob
-# from PIL import Image
 import pickle
-# del keras
-# from tensorflow.keras.utils import load_img, img_to_array
 from keras.applications.vgg16 import VGG16, preprocess_input
 
 def load_image(image_path):
