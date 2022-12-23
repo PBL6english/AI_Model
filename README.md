@@ -1,3 +1,3 @@
-# AI_Model
+# AI model storage folder
 https://drive.google.com/drive/u/0/folders/1-6dPidjqFpBC6GEwTMTsEZY7BKTrBb9_
 
